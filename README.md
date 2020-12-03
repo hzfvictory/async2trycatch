@@ -1,11 +1,11 @@
-# async2tryCatch
+# async2trycatch
 
 ## Install
-```javascript
-yarn add async2tryCatch -D
+```
+yarn add async2trycatch -D
 ```
 ## Usage
-```javascript
+```
 // webpack.config.js
 
 module: {
@@ -13,7 +13,7 @@ module: {
         {
             test: /\.js$/,
             use:{
-                loader:'async2tryCatch',
+                loader:'async2trycatch',
                 options:{
                 }
             }

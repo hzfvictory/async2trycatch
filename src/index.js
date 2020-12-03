@@ -10,7 +10,7 @@ const defaultOpt = {
   finallyCode: null
 };
 
-function index(source) {
+module.exports = function (source) {
   const ast = parse(source, {
     sourceType: "module", // 支持 es6 module
     plugins: ["dynamicImport"] // 支持动态 import
@@ -87,5 +87,3 @@ function index(source) {
   console.log('\x1B[33m%s\x1B[0m', '✔ over')
   return generator(ast).code;
 }
-
-module.exports = index
