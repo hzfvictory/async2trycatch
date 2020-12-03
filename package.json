@@ -1,0 +1,17 @@
+{
+  "name": "async2tryCatch",
+  "version": "1.0.0",
+  "description": "自动包裹await",
+  "main": "src/index.js",
+  "author": "hzfvictory",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "loader-utils": "^2.0.0",
+    "recast": "^0.20.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hzfvictory/async2tryCatch.git"
+  }
+}
